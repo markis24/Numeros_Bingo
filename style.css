@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body {
+    background: #ffe259;
+    margin: 0;
+    padding: 0;
+}
+
+#title-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#numeros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    background-color: rgb(96, 186, 209);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(55, 136, 64);
+}
+
+/* Nueva clase CSS para el botón después de hacer clic */
+button.clicked {
+    background-color: green;
+    border-color: black;
+    pointer-events: none;  /* Desactiva el clic */
+}
