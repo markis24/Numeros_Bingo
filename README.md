@@ -1,5 +1,9 @@
 # Numeros del Bingo
 
+# Link del juego 
+
+- https://markis24.github.io/Numeros_Bingo/
+
 ## Herramientas Utilizada
 
 - Frontend: HTML , CSS y JavaScript
